@@ -1,11 +1,11 @@
 <h1 align="center">
-    <b>Secure Authentication System with Node.js, Passport.js, and MongoDB<br></b> 
+    <b>Real-Time Chat Application<br></b> 
 <br>
 </h1>
 
 ## Overview
 
-This project implements a secure authentication system using Node.js, Express.js, Passport.js for authentication strategies, bcrypt for password hashing, and MongoDB for data storage. It allows users to register, log in securely, and log out. This README provides an overview of the project, dependencies, and steps to recreate it.
+This project implements a real-time chat application using WebSocket technology to enable instant messaging between users. Enabling Users to be able to create accounts, join chat rooms or initiate private conversations, and exchange text messages in real-time.
 
 ## Features
 
@@ -26,7 +26,7 @@ Allows the user to register their account by filling their Email, Username, Pass
 
 ### Login Form:
 
-If the user has been registered on the app, can login by passing the credentials.
+If the user has been registered on the app, can login by passing
 
 <img src="./git_dcs/login.png" >
 
