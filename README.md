@@ -45,11 +45,8 @@ User's Credentials are stored in the Mongodb database.
 
 - Node.js
 - Express.js
-- Passport.js
 - bcrypt
-- MongoDB
-- Mongoose
-- EJS
+- MongoDB Atlas
 
 ## Getting Started
 
