@@ -22,8 +22,6 @@ This project implements a real-time chat application using WebSocket technology 
 
 Allows the user to register their account by filling their Email, Username, Password.
 
-
-
 ### Login Form:
 
 If the user has been registered on the app, can login by passing
