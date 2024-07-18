@@ -77,7 +77,6 @@ To run this project locally, follow these steps:
 
    ```bash
    npm  run devStart
-
    ```
 
 5. **View the application**:
