@@ -72,6 +72,7 @@ To run this project locally, follow these steps:
    DATABASE_URL=mongodb://localhost:27017/your-database-name
    SESSION_SECRET=your_session_secret
    ```
+   
 4. **Run the application**:
 
    ```bash
