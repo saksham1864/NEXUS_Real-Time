@@ -3,6 +3,8 @@
 <br>
 </h1>
 
+
+
 ## Overview
 
 This project implements a real-time chat application using WebSocket technology to enable instant messaging between users. Enabling Users to be able to create accounts, join chat rooms or initiate private conversations, and exchange text messages in real-time.
