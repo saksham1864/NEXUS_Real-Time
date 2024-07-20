@@ -16,7 +16,6 @@ This project implements a real-time chat application using WebSocket technology 
 - **Session Management**: Maintains user sessions across requests.
 - **Password Hashing**: Uses bcrypt for secure password storage.
 - **Protected Routes**: Ensures certain routes are only accessible to authenticated users.
-- **Logout**: Allows users to log out of their session.
 
 ## Results
 
