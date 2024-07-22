@@ -3,9 +3,11 @@
 <br>
 </h1>
 
+
 ## Overview
 
 This project implements a real-time chat application using WebSocket technology to enable instant messaging between users. Enabling Users to be able to create accounts, join chat rooms or initiate private conversations, and exchange text messages in real-time.
+
 
 ## Features
 
@@ -14,15 +16,12 @@ This project implements a real-time chat application using WebSocket technology 
 - **Session Management**: Maintains user sessions across requests.
 - **Password Hashing**: Uses bcrypt for secure password storage.
 - **Protected Routes**: Ensures certain routes are only accessible to authenticated users.
-- **Logout**: Allows users to log out of their session.
 
 ## Results
 
 ### Registration Form:
 
 Allows the user to register their account by filling their Email, Username, Password.
-
-<img src="./git_dcs/register.png" >
 
 ### Login Form:
 
@@ -45,11 +44,8 @@ User's Credentials are stored in the Mongodb database.
 
 - Node.js
 - Express.js
-- Passport.js
 - bcrypt
-- MongoDB
-- Mongoose
-- EJS
+- MongoDB Atlas
 
 ## Getting Started
 
@@ -75,11 +71,11 @@ To run this project locally, follow these steps:
    DATABASE_URL=mongodb://localhost:27017/your-database-name
    SESSION_SECRET=your_session_secret
    ```
+   
 4. **Run the application**:
 
    ```bash
    npm  run devStart
-
    ```
 
 5. **View the application**:
