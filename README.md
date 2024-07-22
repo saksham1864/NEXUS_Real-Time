@@ -1,89 +1,36 @@
-<h1 align="center">
-    <b>Real-Time Chat Application<br></b> 
-<br>
-</h1>
+# Real-Time Chat Application
 
+![Chat App](path-to-your-screenshot.png)
 
 ## Overview
 
-This project implements a real-time chat application using WebSocket technology to enable instant messaging between users. Enabling Users to be able to create accounts, join chat rooms or initiate private conversations, and exchange text messages in real-time.
-
+This is a real-time chat application built with React and Socket.io. The app allows users to engage in real-time conversations with features such as group chats, notifications, and more.
 
 ## Features
 
-- **User Registration**: Allows new users to register securely.
-- **User Login**: Authenticates users with hashed passwords.
-- **Session Management**: Maintains user sessions across requests.
-- **Password Hashing**: Uses bcrypt for secure password storage.
-- **Protected Routes**: Ensures certain routes are only accessible to authenticated users.
+- **Real-time Messaging**: Instant messaging using Socket.io.
+- **User Authentication**: Secure user login and registration.
+- **Group Chats**: Create and manage group conversations.
+- **Notifications**: Real-time notifications for new messages.
+- **Responsive Design**: Fully responsive layout.
+- **RESTful API**: Backend communication with Axios.
 
-## Results
+## Technologies Used
 
-### Registration Form:
+- **Frontend**:
+  - [React](https://reactjs.org/)
+  - [Axios](https://axios-http.com/)
+  - [Socket.io](https://socket.io/)
 
-Allows the user to register their account by filling their Email, Username, Password.
+- **Backend**:
+  - [Node.js](https://nodejs.org/)
+  - [Express](https://expressjs.com/)
+  - [MongoDB Atlas](https://www.mongodb.com/atlas)
+  - [Socket.io](https://socket.io/)
 
-### Login Form:
+## Installation
 
-If the user has been registered on the app, can login by passing
-
-<img src="./git_dcs/login.png" >
-
-### User's Profile:
-
-After the user is successful logged in, a simple profile with the user's username is displayed with a session Logout button.
-
-<img src="./git_dcs/successful_login.png" >
-
-### DataBase:
-
-User's Credentials are stored in the Mongodb database.
-<img src="./git_dcs/database.png">
-
-## Dependencies
-
-- Node.js
-- Express.js
-- bcrypt
-- MongoDB Atlas
-
-## Getting Started
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository**:
-
+1. Clone the repository:
    ```bash
-   git clone https://github.com/saksham1864/PRODIGY_FS_01
-
-   ```
-
-2. **Install dependencies**:
-
-   ```bash
-   cd PRODIGY_FS_01
-   npm install
-
-   ```
-
-3. **Set up environment variables**:
-   ```bash
-   DATABASE_URL=mongodb://localhost:27017/your-database-name
-   SESSION_SECRET=your_session_secret
-   ```
-   
-4. **Run the application**:
-
-   ```bash
-   npm  run devStart
-   ```
-
-5. **View the application**:
-
-   Open your web browser and navigate to http://localhost:3000 to view the application.
-
-## Example Usage
-
-- Register a new user with a name, email, and password.
-- Log in with the registered credentials.
-- Access protected routes like the homepage and log out when done.
+   git clone https://github.com/your-username/chat-app.git
+   cd chat-app
