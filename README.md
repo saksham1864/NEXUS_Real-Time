@@ -52,9 +52,9 @@ This is a real-time chat application built with React and Socket.io. The app all
    npm start
 
 5. Usage:
-    -Register a new account or login with an existing account.
-    -Start a new chat or join an existing group chat.
-    -Enjoy real-time messaging with notifications.
+    - Register a new account or login with an existing account.
+    - Start a new chat or join an existing group chat.
+    - Enjoy real-time messaging with notifications.
 
 
    
