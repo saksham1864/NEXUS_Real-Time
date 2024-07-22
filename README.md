@@ -1,7 +1,5 @@
 # Real-Time Chat Application
 
-![Chat App](path-to-your-screenshot.png)
-
 ## Overview
 
 This is a real-time chat application built with React and Socket.io. The app allows users to engage in real-time conversations with features such as group chats, notifications, and more.
@@ -34,3 +32,29 @@ This is a real-time chat application built with React and Socket.io. The app all
    ```bash
    git clone https://github.com/your-username/chat-app.git
    cd chat-app
+   
+2. Install dependencies:
+   ```bash
+   npm install
+   cd client
+   npm install
+   
+3. Create a .env file in the root directory and add the following variables:
+   MONGO_URI=your-mongodb-uri
+   JWT_SECRET=your-jwt-secret
+
+4. run the server:
+   ```bash
+   cd backend
+   npm start
+
+   cd frontend
+   npm start
+
+5. Usage:
+    -Register a new account or login with an existing account.
+    -Start a new chat or join an existing group chat.
+    -Enjoy real-time messaging with notifications.
+
+
+   
