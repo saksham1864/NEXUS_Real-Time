@@ -3,7 +3,7 @@
 ## Overview
 
 This is a real-time chat application built with React and Socket.io. The app allows users to engage in real-time conversations with features such as group chats, notifications, and more.
-<br/>
+<br><br/>
 ![Chat App](https://github.com/saksham1864/PRODIGY_FS_04/blob/main/gitimg/loginpage.png)
 
 
