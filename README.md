@@ -50,7 +50,6 @@ This is a real-time chat application built with React and Socket.io. The app all
 - users are populated in users collection
 - chat/groupchat names are stored in chats collection
 
-
 ## Installation
 
 1. Clone the repository:
