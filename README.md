@@ -6,7 +6,6 @@ This is a real-time chat application built with React and Socket.io. The app all
 <br><br/>
 ![Chat App](https://github.com/saksham1864/PRODIGY_FS_04/blob/main/gitimg/loginpage.png)
 
-
 ## Features
 
 - **Real-time Messaging**: Instant messaging using Socket.io.
