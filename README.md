@@ -63,6 +63,7 @@ This is a real-time chat application built with React and Socket.io. The app all
    MONGO_URI=your-mongodb-uri
    JWT_SECRET=your-jwt-secret
 
+
 4. run the server:
    ```bash
    cd backend
@@ -75,4 +76,5 @@ This is a real-time chat application built with React and Socket.io. The app all
     - Register a new account or login with an existing account.
     - Start a new chat or join an existing group chat.
     - Enjoy real-time messaging with notifications.
+
    
