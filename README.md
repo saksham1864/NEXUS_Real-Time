@@ -29,17 +29,21 @@ This is a real-time chat application built with React and Socket.io. The app all
   - [Socket.io](https://socket.io/)
 
 
+
 ## landing page after a successfull login
 
 ![Chat App](https://github.com/saksham1864/PRODIGY_FS_04/blob/main/gitimg/landingpage.png)
+
 
 ## Interface for chats
 
 ![Chat App](https://github.com/saksham1864/PRODIGY_FS_04/blob/main/gitimg/chatpage.png)
 
+
 ## Create Group Chat
 
 ![Chat App](https://github.com/saksham1864/PRODIGY_FS_04/blob/main/gitimg/create_chatpage.png)
+
 
 # mongoDB collections
 - chats are stored in messages collection
@@ -63,7 +67,6 @@ This is a real-time chat application built with React and Socket.io. The app all
    MONGO_URI=your-mongodb-uri
    JWT_SECRET=your-jwt-secret
 
-
 4. run the server:
    ```bash
    cd backend
@@ -71,7 +74,7 @@ This is a real-time chat application built with React and Socket.io. The app all
 
    cd frontend
    npm start
-
+   
 5. Usage:
     - Register a new account or login with an existing account.
     - Start a new chat or join an existing group chat.
