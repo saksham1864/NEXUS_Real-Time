@@ -7,7 +7,6 @@ This is a real-time chat application built with React and Socket.io. The app all
 ![Chat App](https://github.com/saksham1864/PRODIGY_FS_04/blob/main/gitimg/loginpage.png)
 
 ## Features
-
 - **Real-time Messaging**: Instant messaging using Socket.io.
 - **User Authentication**: Secure user login and registration.
 - **Group Chats**: Create and manage group conversations.
@@ -16,7 +15,6 @@ This is a real-time chat application built with React and Socket.io. The app all
 - **RESTful API**: Backend communication with Axios.
 
 ## Technologies Used
-
 - **Frontend**:
   - [React](https://reactjs.org/)
   - [Axios](https://axios-http.com/)
